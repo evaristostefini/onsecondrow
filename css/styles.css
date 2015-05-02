@@ -1,0 +1,82 @@
+html,body{
+  	height:100%;
+}
+
+body{
+  	padding-top:70px; /*padding for navbar*/
+    background-color: #168ccc;
+}
+
+.navbar-custom .icon-bar {
+	background-color:#fff;
+}
+
+.navbar-custom {
+	background-color: #168ccc;
+    color:#fff;
+}
+
+.navbar-custom li>a:hover,.navbar-custom li>a:focus {
+	background-color:#49bfff;
+}
+
+.navbar-custom a{
+    color:#fefefe;
+}
+
+
+.navbar-custom .form-control:focus {
+	border-color: #49bfff;
+	outline: 0;
+	-webkit-box-shadow: inset 0 0 0;
+	box-shadow: inset 0 0 0;
+}
+.navbar h3{
+    text-align: center;
+}
+
+.form-group{
+
+    margin-left:10px;
+}
+#map-canvas {
+	width:100%;
+    height:100%;
+    position:absolute;
+    right:0px;
+    overflow:hidden;
+}
+
+.gm-style-mtc{
+    display: none;
+
+}
+
+h4.enjoy{ color: #d9534f; }
+
+h4.twist{ color: #428bca; }
+
+h4.car2go{ color: #428bca; }
+
+
+/** spinner */
+
+.loading {
+    display: none;
+    position: fixed;
+    top: 350px;
+    left: 50%;
+    margin-top: -96px;
+    margin-left: -96px;
+    background-color: #ccc;
+    opacity: .85;
+    border-radius: 25px;
+    width: 128px;
+    height: 128px;
+    z-index: 99999;
+}
+
+.timeoutmarker{
+    display: none;
+
+}

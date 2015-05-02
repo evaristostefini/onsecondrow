@@ -1,0 +1,18 @@
+{
+	code:000,
+	message:"Description",
+	markers:[
+		{
+			id:7383783,
+			long:'-34.8998',
+			lang:'64.4884',
+			types:'car2go,twist'
+		},
+		{
+			id:37674,
+			long:'-73.8998',
+			lang:'64.4884',
+			types:'car2go,twist,enjoy'
+		}
+	]
+}
